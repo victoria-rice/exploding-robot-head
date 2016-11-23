@@ -23,6 +23,7 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  height: 240px;
 }
 
 .robot-body {
@@ -54,4 +55,18 @@ body {
   position: absolute;
   left: 35px;
   top: 20px;
+}
+
+.robot:hover .robot-head-right {
+  right: 10px;
+  top: 5px;
+}
+
+.robot:hover .robot-head-left {
+  left: 10px;
+  top: 5px;
+}
+
+.robot:hover .robot-brain {
+  top: 5px;
 }
